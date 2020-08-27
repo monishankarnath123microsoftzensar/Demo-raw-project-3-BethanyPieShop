@@ -18,9 +18,6 @@ namespace PieShopDemo.Models
         public float Price { get; set; }
         public bool IsPieOfTheWeek { get; set; }
         public bool InStock { get; set; }
-        [Display(Name = "Suger Level")]
-        public int SugerLvl { get; set; }
-        public int Discount { get; set; }
         public string Image { get; set; }
         [Display(Name = "Thumbnail Image")]
         public string ImageThumb { get; set; }

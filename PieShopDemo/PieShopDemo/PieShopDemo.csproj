@@ -182,6 +182,10 @@
     <Compile Include="Migrations\202008261717512_Update foreign key and image.Designer.cs">
       <DependentUpon>202008261717512_Update foreign key and image.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202008270745464_Alter Pies Orderdetails Add ShoppingCart.cs" />
+    <Compile Include="Migrations\202008270745464_Alter Pies Orderdetails Add ShoppingCart.Designer.cs">
+      <DependentUpon>202008270745464_Alter Pies Orderdetails Add ShoppingCart.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Admin.cs" />
@@ -192,6 +196,7 @@
     <Compile Include="Models\PieReview.cs" />
     <Compile Include="Models\Pies.cs" />
     <Compile Include="Models\RegisterUser.cs" />
+    <Compile Include="Models\ShoppingCartItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModel\NewPieViewModel.cs" />
@@ -262,6 +267,8 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Admin\AddPie.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Admin\AddPieCategory.cshtml" />
+    <Content Include="Views\Admin\IndexCategory.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -281,6 +288,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008261717512_Update foreign key and image.resx">
       <DependentUpon>202008261717512_Update foreign key and image.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202008270745464_Alter Pies Orderdetails Add ShoppingCart.resx">
+      <DependentUpon>202008270745464_Alter Pies Orderdetails Add ShoppingCart.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

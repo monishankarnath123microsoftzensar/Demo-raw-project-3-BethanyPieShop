@@ -26,6 +26,7 @@ namespace PieShopDemo.Models
         public DbSet<PieReview> PieReviews { get; set; }
         public DbSet<Pies> Pies { get; set; }
         public DbSet<RegisterUser> RegisterUsers { get; set; }
+        public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {

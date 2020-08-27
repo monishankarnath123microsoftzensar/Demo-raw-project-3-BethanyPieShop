@@ -9,9 +9,9 @@ namespace PieShopDemo.Models
     public class OrderDetails
     {
         public int Id { get; set; }
-        public int Amount { get; set; }
-        [Display(Name ="Sub-Total Price")]
-        public float SubPrice { get; set; }
+        public float Amount { get; set; }
+        
+        public int Quantity { get; set; }
         public bool OrderConfirm { get; set; }
         public string PaymentMethod { get; set; }
         public Pies Pies { get; set; }

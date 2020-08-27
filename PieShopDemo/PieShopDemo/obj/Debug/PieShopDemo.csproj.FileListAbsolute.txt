@@ -109,3 +109,4 @@ E:\Dotnettraining\Project_BethanysPieShop\PieShopDemo\PieShopDemo\obj\Debug\PieS
 E:\Dotnettraining\Project_BethanysPieShop\PieShopDemo\PieShopDemo\obj\Debug\PieShopDemo.Migrations.AddInitialdatabase.resources
 E:\Dotnettraining\Project_BethanysPieShop\PieShopDemo\PieShopDemo\obj\Debug\PieShopDemo.csproj.GenerateResource.cache
 E:\Dotnettraining\Project_BethanysPieShop\PieShopDemo\PieShopDemo\obj\Debug\PieShopDemo.Migrations.Updateforeignkeyandimage.resources
+E:\Dotnettraining\Project_BethanysPieShop\PieShopDemo\PieShopDemo\obj\Debug\PieShopDemo.Migrations.AlterPiesOrderdetailsAddShoppingCart.resources

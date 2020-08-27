@@ -34,14 +34,15 @@ else
             {
                 <tr>
                     
-                    @*<td>@Html.ActionLink(item.Name, "Details", "Movie", new { id = item.Id }, null)</td>
-                    <td>@item.Genre.GenreName</td>
+                    <td>@Html.ActionLink(item.Name, "Details", "Admin", new { id = item.Id }, null)</td>
+                    <td>@item.Price</td>
+                    <td>@item.PieCategory.CName</td>
                     <td>
-                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new { @class = "btn btn-primary" })
+                        @Html.ActionLink("Edit", "EditPie", new { id = item.Id }, new { @class = "btn btn-primary" })
                     </td>
                     <td>
-                        @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-danger" })
-                    </td>*@
+                        @Html.ActionLink("Delete", "DeletePie", new { id = item.Id }, new { @class = "btn btn-danger" })
+                    </td>
 
                 </tr>
             }
